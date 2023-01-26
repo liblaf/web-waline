@@ -1,0 +1,18 @@
+{
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node@latest"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/favicon.ico",
+      "dest": "https://assets.liblaf.cc/favicon/ico/w.ico"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ]
+}
