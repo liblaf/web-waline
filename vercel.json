@@ -8,7 +8,7 @@
   "routes": [
     {
       "src": "/favicon.ico",
-      "dest": "https://assets.liblaf.cc/favicon/ico/w.ico"
+      "dest": "https://assets.liblaf.me/favicon/ico/w.ico"
     },
     {
       "src": "/(.*)",
